@@ -37,6 +37,6 @@ def get_weather_task(city_name, email_user):
 def send_email_view_task(message, email: str):
     subject = 'Greetings from Django'
     messages = str(message)
-    from_email = 'horobets.dmitro@gmail.com'
+    from_email = os.getenv('EMAIL')
     recipient_list = [email]
     send_mail(subject, messages, from_email, recipient_list, fail_silently=False)

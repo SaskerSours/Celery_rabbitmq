@@ -18,7 +18,7 @@ Celery: Used for asynchronous task processing to fetch weather data in the backg
 Redis: Acts as the result backend for Celery, storing task results.
 RabbitMQ: The message broker for communication between the Django application and Celery worker.
 RapidAPI (weatherapi-com.p.rapidapi.com): The API used to fetch astronomical weather data.
-Project Structure
+Project Structure https://rapidapi.com/weatherapi/api/weatherapi-com/
 The main components of the project are organized as follows:
 
 
